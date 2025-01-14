@@ -29,3 +29,8 @@ const listaInvitati = [
 const tuaMail = prompt("inserisci la tua mail");
 
 let verificaInvito = false;
+for (let i = 0; i < listaInvitati.length; i++) {
+  if (listaInvitati[i] === tuaMail) {
+    verificaInvito = true;
+  }
+}
