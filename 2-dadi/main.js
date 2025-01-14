@@ -9,3 +9,6 @@
 
 let Giocatore = Math.floor(Math.random() * 6) + 1;
 let Computer = Math.floor(Math.random() * 6) + 1;
+
+console.log("Punteggio del Giocatore: " + Giocatore);
+console.log("Punteggio del Computer: " + Computer);
