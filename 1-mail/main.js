@@ -34,3 +34,9 @@ for (let i = 0; i < listaInvitati.length; i++) {
     verificaInvito = true;
   }
 }
+
+if (verificaInvito) {
+  console.log("Sei nell elenco, Addivettiti!");
+} else {
+  console.log("Non sei stato invitato... Sad.");
+}
