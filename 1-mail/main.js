@@ -29,14 +29,18 @@ const listaInvitati = [
 const tuaMail = prompt("inserisci la tua mail");
 
 let verificaInvito = false;
+
 for (let i = 0; i < listaInvitati.length; i++) {
   if (listaInvitati[i] === tuaMail) {
     verificaInvito = true;
   }
 }
 
+//VARIANTE
+//const verificaInvito = listaInvitati.includes(tuaMail);
+
 if (verificaInvito) {
-  console.log("Sei nell elenco, Addivettiti!");
+  alert("Sei nell elenco, Addivettiti!");
 } else {
-  console.log("Non sei stato invitato... Sad.");
+  alert("Non sei stato invitato... Sad.");
 }
