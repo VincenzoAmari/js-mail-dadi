@@ -15,3 +15,17 @@
 // cilco for per controllare se la mail è presente
 // se presente messaggio di presenza
 // altrimenti messaggio di rifiuto
+
+const listaInvitati = [
+  "es1@gmail.com",
+  "es2@gmail.com",
+  "es3@gmail.com",
+  "es4@gmail.com",
+  "es5@gmail.com",
+  "es6@gmail.com",
+  "es7@gmail.com",
+];
+
+const tuaMail = prompt("inserisci la tua mail");
+
+let verificaInvito = false;
